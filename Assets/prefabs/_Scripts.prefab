@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8825639520589618137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8825639520589618139}
+  - component: {fileID: 8825639520589618138}
+  - component: {fileID: 8825639520589618140}
+  - component: {fileID: 8825639520589618141}
+  m_Layer: 0
+  m_Name: _Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8825639520589618139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8825639520589618137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18766277, y: 3.1462917, z: -11.228027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8825639520589618138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8825639520589618137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700a066d75776404b83b2d88ca6c04d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Balon: {fileID: 8493417312136163676, guid: 01dabf8bdcc46d442923e55b4cd3de89, type: 3}
+--- !u!114 &8825639520589618140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8825639520589618137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fdd15151f5b944f80ea68192081049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PuanText: {fileID: 0}
+  SureText: {fileID: 0}
+  ScoreText: {fileID: 0}
+  Sure: 5
+  sonrakilvlBTN: {fileID: 0}
+  patlama: {fileID: 816441795598254463, guid: 9200e92cd148253409cf5c2ae9fda3b5, type: 3}
+--- !u!114 &8825639520589618141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8825639520589618137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40443bbbe7bf7224b89b93644558ed22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
